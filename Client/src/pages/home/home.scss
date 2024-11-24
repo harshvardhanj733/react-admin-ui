@@ -8,10 +8,10 @@
   grid-auto-rows: minmax(180px, auto);
   grid-auto-flow: dense;
 
-  @include xl{
+  @include xl {
     grid-template-columns: repeat(3, 1fr);
   }
-  @include lg{
+  @include lg {
     grid-template-columns: repeat(2, 1fr);
   }
   @include md {
@@ -25,6 +25,9 @@
     padding: 20px;
     border-radius: 10px;
     border: 2px solid $soft-bg;
+    @include sm {
+      width: 75vw;
+    }
   }
 
   .box1 {

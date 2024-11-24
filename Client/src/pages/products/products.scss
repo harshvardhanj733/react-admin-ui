@@ -1,14 +1,20 @@
-.products{
+@import "../../styles/variables.scss";
 
-  .info{
+.products {
+  width: 80vw;
+  .info {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
 
-    button{
-      padding: 5px;
+    button {
+      padding: 12px;
       cursor: pointer;
+      background-color: $soft-bg;
+      border-radius: 10%;
+      color: white;
+      border: none;
     }
   }
 }

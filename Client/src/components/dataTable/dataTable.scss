@@ -1,25 +1,28 @@
-.dataTable{
+@import "../../styles/variables.scss";
 
-  .dataGrid{
-    background: white;
+.dataTable {
+  .dataGrid {
+    background: #ebe4d3;
     padding: 20px;
 
-    .MuiDataGrid-toolbarContainer{
+    .MuiDataGrid-toolbarContainer {
       flex-direction: row-reverse;
+      padding: 10px;
+      border-radius: 5%;
     }
 
-    img{
+    img {
       width: 32px;
       height: 32px;
       border-radius: 50%;
       object-fit: cover;
     }
 
-    .action{
+    .action {
       display: flex;
       gap: 15px;
 
-      img{
+      img {
         width: 20px;
         height: 20px;
         cursor: pointer;

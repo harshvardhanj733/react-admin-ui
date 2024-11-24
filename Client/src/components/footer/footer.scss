@@ -1,16 +1,18 @@
-.footer{
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ebe4d3;
+  color: #432e54;
 
-  span{
-
-    &:first-child{
+  span {
+    &:first-child {
       font-weight: bold;
     }
 
-    &:last-child{
+    &:last-child {
       font-size: 14px;
     }
   }
